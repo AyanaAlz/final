@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #ffeaf3;
+  color: #222;
+}
+
+.event-header {
+  background: #ffeaf3;
+  padding: 15px 0;
+  border-bottom: 2px solid #e24a75;
+}
+
+.event-card {
+  transition: transform 0.3s, background 0.3s;
+  border-radius: 8px;
+}
+
+.event-card:hover {
+  transform: scale(1.03);
+  background: #f8f9fa;
+}
+
+.card-img-top {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  object-fit: cover;
+  height: 200px;
+}
+

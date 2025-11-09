@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cat Cafe - Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="home.js" defer></script>
+</head>
+<body>
+  <header class="navbar">
+    <div class="typo">Cat Cafe</div>
+    <nav class="nav-links">
+      <a href="index.html" class="active">Home</a>
+      <a href="2and3/bootstrapgrid.html">Menu</a>
+      <a href="portfolio.html">Our Cats!</a>
+      <a href="events.html">Our Events!</a>
+      <a href="reservation.html">Book Now!</a>
+    </nav>
+  </header>
+  <section class="typography text-center">
+    <h2>Welcome to our Cat Cafe!</h2>
+    <p>Meet our sweet and playful cats! Our Cat Cafe is full of peace and relaxation.</p>
+    <section id="gallery" class="carousel-container mb-3"></section>
+    <button type="button" class="btn btn-brown mt-3" data-bs-toggle="modal" data-bs-target="#welcomeModal">
+      Learn More
+    </button>
+  </section>
+
+  <hr>
+
+  <section>
+    <h2>Here you can find interesting things</h2>
+    <p>You can check out our sections:</p>
+
+    <div class="boxes">
+      <a href="index.html"><div class="box">About Us<br><small>Let's get introduced</small></div></a>
+      <a href="2and3/bootstrapgrid.html"><div class="box">Menu<br><small>Drinks and Snacks</small></div></a>
+      <a href="portfolio.html"><div class="box">Our Cats!<br><small>Our little friends</small></div></a>
+      <a href="events.html"><div class="box">Our Events!<br><small>Spend some time with playful tails</small></div></a>
+      <a href="reservation.html"><div class="box">Book Now!<br><small>We are looking forward to seeing you!</small></div></a>
+    </div>
+  </section>
+  <footer class="grid-footer">2025 Cat Cafe</footer>
+  <div class="modal fade" id="welcomeModal" tabindex="-1" aria-labelledby="welcomeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header bg-brown text-white">
+          <h5 class="modal-title" id="welcomeModalLabel">Welcome to Cat Cafe!</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>At Cat Cafe, we combine the love for coffee with the joy of cats!</p>
+          <p>Enjoy a cozy atmosphere, spend time with adorable cats, and relax from daily stress.</p>
+          <img src="los-angeles-cat-cafe.jpg" alt="Cat Cafe Interior" class="img-fluid rounded">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-brown" data-bs-dismiss="modal">Close</button>
+          <a href="reservation.html" class="btn btn-brown">Book a Visit</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

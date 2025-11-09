@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cat Cafe - Our Cats</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="ports.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="cats.js" defer></script>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Cat Cafe</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#nav2" aria-controls="nav2" aria-expanded="false"
+              aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="nav2">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="2and3/bootstrapgrid.html">Menu</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#">Our Cats</a></li>
+          <li class="nav-item"><a class="nav-link" href="events.html">Our Events</a></li>
+          <li class="nav-item"><a class="nav-link" href="reservation.html">Book Now!</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container my-4">
+    <div class="row">
+      <section class="col-12 col-lg-8">
+        <h2 class="mb-3">Our Cats!</h2>
+        <div class="mb-4">
+          <input type="text" id="catSearch" class="form-control" placeholder="Search cats by name or description...">
+        </div>
+        <div id="catCards" class="row g-3">
+          <article class="col-12 col-md-6 mb-3 cat-card">
+            <div class="card h-100">
+              <img src="44f53e5f7a6f35bb0f4c86852e9980a9.jpg" class="card-img-top" alt="Meow 1">
+              <div class="card-body">
+                <h5 class="card-title">Meow 1</h5>
+                <p class="card-text">Sweet mau</p>
+              </div>
+            </div>
+          </article>
+          <article class="col-12 col-md-6 mb-3 cat-card">
+            <div class="card h-100">
+              <img src="6716b659c39c378f2aef928866585252.jpg" class="card-img-top" alt="Meow 2">
+              <div class="card-body">
+                <h5 class="card-title">Meow 2</h5>
+                <p class="card-text">Blep mau</p>
+              </div>
+            </div>
+          </article>
+          <article class="col-12 col-md-6 mb-3 cat-card">
+            <div class="card h-100">
+              <img src="4e7a3b46a198c1ddb1f60363d02c2ce0.jpg" class="card-img-top" alt="Meow 3">
+              <div class="card-body">
+                <h5 class="card-title">Meow 3</h5>
+                <p class="card-text">Thoughtful mau</p>
+              </div>
+            </div>
+          </article>
+          <article class="col-12 col-md-6 mb-3 cat-card">
+            <div class="card h-100">
+              <img src="b2bd27a913ca0052955e75150a5e9544.jpg" class="card-img-top" alt="Meow 4">
+              <div class="card-body">
+                <h5 class="card-title">Meow 4</h5>
+                <p class="card-text">Startled mau</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <aside class="col-12 col-lg-4">
+        <div class="card info-card mb-3">
+          <div class="card-body">
+            <h4>About Cafe</h4>
+            <p>Meet our sweet and playful cats! Our Cat Cafe is full of peace and relaxation.</p>
+            <h6>Contact</h6>
+            <p>Email: meow333@gmail.com</p>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="bg-dark text-light py-3 mt-5">
+    <div class="container text-center">
+      <small>2025 Cat Cafe</small>
+    </div>
+  </footer>
+</body>
+</html>

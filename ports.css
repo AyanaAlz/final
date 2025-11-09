@@ -1,0 +1,45 @@
+body { font-family: Arial, sans-serif; margin: 0; background: #ffeaf3; color: #222; }
+h2 { font-size: 20px; }
+.card-img-top { object-fit: cover; height: 180px; }
+main { padding-bottom: 40px; }
+.card .card-title { font-size: 16px; }
+.card .card-text { font-size: 14px; }
+
+
+@media (min-width: 600px) {
+  h2 { font-size: 22px; }
+  .card .card-title { font-size: 17px; }
+  .card .card-text { font-size: 15px; }
+}
+
+
+@media (min-width: 992px) {
+  h2 { font-size: 26px; }
+  .card .card-title { font-size: 18px; }
+  .card .card-text { font-size: 16px; }
+  .card-img-top { height: 220px; }
+}
+
+aside .card { box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.info-card:hover {
+  transform: none;
+  box-shadow: none;
+}
+.info-card{
+  margin-top: 45px;
+}
+
+.navbar {
+    position: sticky;      
+    top: 0;               
+    z-index: 1000;         
+}
